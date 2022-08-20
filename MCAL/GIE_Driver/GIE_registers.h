@@ -1,0 +1,8 @@
+#ifndef MCAL_GIE_DRIVER_GIE_REGISTERS_H_
+#define MCAL_GIE_DRIVER_GIE_REGISTERS_H_
+
+
+#define GIE_SREG    *((volatile u8*)0x5F)   // GLOBAL INTERRUPT ENABLE (STATUS REGISTER)
+
+#define GIE_I        7
+#endif
